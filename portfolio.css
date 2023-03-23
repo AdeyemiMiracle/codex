@@ -1,0 +1,437 @@
+ html{
+    margin:0;
+    padding:0;
+} 
+body{
+    background-color:white;
+    margin: 0;
+    height: 100%;
+    padding: 0;
+}
+#nav-bar{
+    background-color:rgba(245, 245, 245, 0.479);
+    width:100%;
+    height:120px;
+}
+div{
+    margin:0;
+    padding:0;
+}
+img{
+    margin:0;
+    padding:0;
+}
+p{
+    margin:0;
+    padding:0;
+}
+ #screen-state{
+   color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    top:55px;
+    left:5%;
+    border-bottom:1px solid rgba(0, 0, 0, 0.473);
+    width:48px;
+ }
+#profile-img{
+   height:120px; 
+   width:126px;
+   position: relative;
+   left:32%;
+   border-radius:100px;
+   border:5px solid white;
+}
+svg{
+    margin:0;
+    padding:0;
+    position: relative;
+}
+#menu-button{
+    bottom:60px;
+    left:45%; 
+    font-weight:bolder;
+}
+a{
+    margin:0;
+    padding:0;
+}
+#drop-down{
+    background-color:whitesmoke;
+    position:absolute;
+    overflow: hidden;
+    width:0%;
+    height:100%;
+    bottom:0px;
+    text-align: center;
+    z-index:2000;
+}
+.links{
+    display:block;
+    text-decoration:none;
+    margin-top:30px;
+    color:rgba(0, 0, 0, 0.418);
+    font-size:0.8em;
+    font-style: oblique;
+}
+.links:hover{
+   background-color:whitesmoke;
+}
+#cancel-button{
+   margin-top:20px;
+}
+#background-image{
+    width:100%;
+}
+#container1{
+    width:100%;
+}
+#image-content1{
+    position:relative;
+    bottom:300px;
+    left:75%;
+    width:20%;
+}
+#image-content2{
+    position: relative;
+    bottom:290px;
+    left:65%;
+    width:35%;
+}
+#image-content3{
+    font-size:0.55em;
+    position: relative;
+    bottom:280px;
+    left:58%;
+    width:42%;
+}
+#text1{
+    font-family: monospace;
+    font-size:1.5em;
+    margin:-10% 0 2%;
+    color: rgba(0, 0, 0, 0.308);
+
+}
+#contacts-content{
+    background-color:rgb(245, 245, 245);
+    width:100%;
+    height:700px;
+    display:none;
+}
+ #ct-txt{
+    position: relative;
+    top:100px;
+    left:5%;
+    width:90%;
+    color: rgba(0, 0, 0, 0.363);
+    font-style: italic;
+ }
+ #phone-contact{
+    background-color:white;
+    height:100px;
+    margin:130px 0px 0px 3%;
+    width:93%;
+ }
+ #call-icon{
+    margin:25px;
+ }
+ #phone{
+    color: black;
+    font-weight: bolder;
+    font-size:1.4em;
+    position:relative;
+    left:27%;
+    bottom:12%;
+    width:200px;  
+ }
+ #number{
+    position:relative;
+    left:25%;
+    bottom:11%;
+    width:60%;
+ }
+ #email-contact{
+    padding-top:10px;
+    margin:20px 0px 0% 3%;
+    width:93%;
+    background-color: white;
+ }
+ #address-contact{
+    background-color:white;
+    padding-top:30px;
+    width:93%;
+    margin-left:3%;
+ }
+ #working-info{
+    background-color: white;
+    padding-top:60px;
+    width:100%;
+ }
+ #mail-icon{
+    margin:10%;
+ }
+ #address-icon{
+    position: relative;
+    left:10%;
+    margin-bottom:8%;
+ }
+ #working-icon{
+    position: relative;
+    left:12%;
+    margin-bottom:30px;
+ }
+ #time{
+    position:relative;
+    left:30%;
+    bottom:11%;
+    width:60%;
+ }
+ #socialmedia-info{
+    background-color:whitesmoke;
+ }
+ #follow{
+    font-size:1em;
+    font-weight: bolder;
+    margin-left:5%;
+    padding-top:50px;
+}
+ #cont13{
+    margin:50px 0;
+    display:flex;
+    justify-content: space-evenly;
+    flex: wrap;
+ }
+ .icons{
+    color: rgba(0, 110, 255, 0.815);
+ }
+ .icons:hover{
+    color: blueviolet;
+ }
+ #facebook{
+    text-align: center;
+    border-radius:20px;
+ }
+ #facebook-message{
+   color:ghostwhite;
+   text-align: center;
+ }
+ #whatsapp{
+   text-align: center;
+ }
+ #whatsapp-message{
+   text-align: center;
+   color:ghostwhite;
+ }
+ #instagram-message{
+   text-align: center;
+   color:ghostwhite;
+ }
+ #messenger-message{
+   color:ghostwhite;
+   font-size: smaller;
+   text-align: center;
+ }
+ .foot{
+   text-decoration: none;
+   margin-left:3%;
+   position: relative;
+   top:40%;
+   color:ghostwhite;
+   display: inline;
+ }
+ #aboutme-content{
+     background-color:whitesmoke;
+     width:100%;
+     display:none;
+ }
+ #Am{
+    position:absolute;
+    width:200px;
+    left:30%;
+    font-size:2em;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.479);
+ }
+ #about-txt{
+   margin:15% 0% 2% 2%;
+   color: rgba(0, 0, 0, 0.349);
+   font-style: italic;
+ }
+ #my-services{
+   width:200px;
+   position: relative; 
+   left:27%;
+   font-size:2em;
+   font-style: italic;
+   color: rgba(0, 0, 0, 0.479);
+ }
+ #my-txt{
+   margin: 5% 0% 2% 2%; color: rgba(0, 0, 0, 0.295); font-style:oblique;
+ }
+ #box1{
+     padding:10%;
+     width:20px;
+     border-radius:60%;
+     text-align: center;
+     background-color:rgba(0, 38, 255, 0.548);
+     margin:10% 0% 0% 35%;
+ }
+ #hire-content{
+   display:none;
+ }
+ .foot1{
+   color: rgba(0, 0, 0, 0.685);
+ }
+ #text-a{
+   color: rgba(0, 0, 0, 0.301);  margin:2% 0% 5% 5%; font-weight: bolder;  font-style: oblique;
+ }
+ #Abt-img{
+   width:100%;
+ }
+@media only screen and (min-width:370px) and (max-width:425px){
+  #profile-img{
+    left:37%;
+  }
+  #menu-button{
+    left:52%;
+  }
+  #image-content1{
+    bottom:340px;
+    width:60px;
+  }
+  #mail-icon{
+   margin:8%;
+  }
+  #image-content2{
+     bottom:329px;
+     left:70%;
+     width:112px;
+  }
+  #image-content3{
+    width:140px; left:61%;   bottom:315px; font-weight: bolder;
+  }
+  .foot{
+   margin-left:5%;
+  }
+  #follow{
+    margin-left:18%;
+  }
+  #Am{
+   left: 35%;
+  }
+  }
+  @media only screen and (min-width:426px) and (max-width:600px){
+   #profile-img{
+    left:40%;
+   }
+  #menu-button{
+      left:57%;
+   }
+   #image-content1{
+      bottom:400px;
+      width:60px;
+    }
+    #image-content2{
+       bottom:390px; left:70%;  width:112px;
+    }
+    #image-content3{
+      width:140px;
+      left:61%;
+      bottom:375px
+    }
+    #email-contact{
+      height:100px;
+      padding-top:0px;
+    }
+    #working-info{
+      padding-top:20px;
+    }
+    #follow{
+      margin-left:20%;
+    }
+    #mail-icon{
+      margin:3%;
+    }
+    #address-icon{
+      left:3%; margin-bottom:5%;
+    }
+    #working-icon{
+      left:7%;
+      margin-bottom:30px;
+   }
+   #about-txt{
+      margin:10% 0% 2% 2%;
+   }
+   #text-a{
+      margin:2% 0% 5% 19%;
+   }
+  }
+  @media only screen and (min-width:600px) and (max-width:1023px){
+   #profile-img{
+      left:45%;
+     }
+    #menu-button{
+        left:67%;
+     }
+     #image-content1{
+      bottom:640px; width:60px; left:80%;
+    }
+    #image-content2{
+       bottom:630px; left:75%;  width:112px;
+    }
+    #image-content3{
+      width:140px;left:72%; bottom:620px
+    }
+    #contacts-content{
+      height:1000px;
+    }
+    #follow{
+      margin-left:30%;
+    }
+    #email-contact{
+     height:110px; padding-top:10px;
+  }
+  #mail-icon{
+   margin:5%;
+  }
+  #address-icon{
+   position: relative; left:4%; margin-bottom:3%;
+  }
+  #phone{
+   bottom:8%;
+  }
+  #number{
+     bottom:7%;
+  }
+  #address-contact{
+    padding-top:40px;
+  }
+  #time{
+      position:relative; left:30%; bottom:8%;
+  }
+  #working-icon{
+    left:7%;
+  }
+  #about-txt{
+   margin:6% 0% 2% 2%;
+}
+#my-txt{
+   margin:2% 0% 2% 2%; 
+}
+#text-a{
+   margin:2% 0% 5% 25%;
+}
+#Abt-img{
+   width:60%; height:600px; margin-left:20%; margin-top:5%;
+}
+#Am{
+   left:40%;
+}
+#my-services{
+   left:38%;
+}
+}
+@media only screen and (min-width:1024px){
+   #container1{
+      display:none;
+   }
+}
