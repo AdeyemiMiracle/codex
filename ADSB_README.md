@@ -17,7 +17,7 @@ configured local path. If the file is elsewhere, use **Browse** to select it.
 You can also provide a log path on the command line:
 
 ```powershell
-python adsb_simulation.py --log "C:\\path\\to\\0116.txt"
+python adsb_simulation.py --log "C:\path\to\0116.txt"
 ```
 
 Enter an aircraft's six-character hexadecimal ICAO address, then choose
